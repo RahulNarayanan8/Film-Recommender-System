@@ -1,0 +1,27 @@
+<form action="{{ url_for("gfg")}}" method="post">
+    <label for="YearLowerBound">Release Year Lower Bound:</label>
+    <input type="text" id="YearLowerBound" name="lowyear" placeholder="Ex: 1965">
+    <label for="YearUpperBound">Release Year Upper Bound:</label>
+    <input type="text" id="YearUpperBound" name="upperyear" placeholder="Ex: 2019"><br><br>
+    
+    <p>Select which movies you have enjoyed or are interested in watching</p>
+
+    <input type="checkbox" id="marty" name="movie" value="0">
+    <img src="https://m.media-amazon.com/images/I/51wrofG7jaL._AC_.jpg" alt="Marty Poster"><br>
+    <input type="checkbox" id="homealone" name="movie" value="1">
+    <img src="https://movieposters2.com/images/1126201-b.jpg" alt="Home Alone Poster"><br>
+    <input type="checkbox" id="w." name="movie" value="2">
+    <img src="https://m.media-amazon.com/images/I/51dSHW6XbOL._SY445_.jpg" alt="W. Poster"><br>
+    <input type="checkbox" id="abeautifulmind" name="movie" value="3">
+    <img src="https://i.pinimg.com/474x/84/4c/1e/844c1e6c75c128ee9637d0dc3bb4781d.jpg" alt="A Beautiful Mind Poster"><br>
+    <input type="checkbox" id="thenavigator" name="movie" value="4">
+    <img src="https://m.media-amazon.com/images/M/MV5BMzA1ODQ1Nzk0MV5BMl5BanBnXkFtZTgwOTEwNTQ2MzE@._V1_FMjpg_UX1000_.jpg" alt="The Navigator Poster"><br>
+    <input type="checkbox" id="kramervskramer" name="movie" value="5">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Oscar_posters_79.jpg/220px-Oscar_posters_79.jpg" alt="Kramer vs. Kramer Poster"><br>
+    <input type="checkbox" id="patton" name="movie" value="6">
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/70_patton.jpg" alt="Patton Poster"><br>
+    <input type="checkbox" id="bombshell" name="movie" value="7">
+    <img src="https://m.media-amazon.com/images/I/91NNb7ALVfL._SL1500_.jpg" alt="Bombshell Poster"><br>
+    <input type="checkbox" id="pulpfiction" name="movie" value="8">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg" alt="Pulp Fiction Poster"><br>
+    <button type="submit">Submit</button>
